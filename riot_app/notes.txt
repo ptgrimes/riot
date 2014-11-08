@@ -1,0 +1,18 @@
+all
+allytips
+altimages
+blurb
+enemytips
+image
+info
+lore
+partype
+passive
+recommended
+skins
+spells
+stats
+tags
+
+
+<div class="img " style="height:48px; width:48px; background: url('//ddragon.leagueoflegends.com/cdn/4.19.2/img/sprite/champion3.png') -96px -96px no-repeat;" data-rg-name="champion" data-rg-id="Xerath"></div>
