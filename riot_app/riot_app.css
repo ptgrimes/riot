@@ -1,1 +1,45 @@
-/* CSS declarations go here */
+.form-text-box {
+  text-align: right;
+  float:right;
+  clear:both;
+}
+
+.form-table {
+  width: 40%;
+}
+
+.stat-form {
+  width: 40%;
+}
+
+.form-row {
+  height: 25px;
+  width: 100%;
+}
+
+.form-attr-text {
+  height: 25px;
+  line-height: 25px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 31px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

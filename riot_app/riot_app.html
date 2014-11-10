@@ -1,13 +1,75 @@
 <head>
-  <title>riot_app</title>
+  <title>Grimbap's Calculator</title>
 </head>
 
 <body>
-  {{> hello}}
+  {{> title}}
+  {{> calculate}}
 </body>
 
-<template name="hello">
-  <h1>Hello World!</h1>
+<template name="title">
+  <h1>League of Legends Efficiency Calculator</h1>
   {{greeting}}
-  <input type="button" value="Click" />
 </template>
+
+<!-- leaderboard.html -->
+<template name="calculate">
+  <form class="stat-form">
+    <div class="form-row">
+      <span class="form-attr-text">Ability Level</span>
+      <span><input class="form-text-box" id="ability-power" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Ability Power</span>
+      <span><input class="form-text-box" id="ability-power" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Attack Damage</span>
+      <span><input class="form-text-box" id="attack-damage" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Bonus Armor</span>
+      <span><input class="form-text-box" id="bonus-armor" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Bonus Magic Resist</span>
+      <span><input class="form-text-box" id="bonus-magic-resist" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Bonus Health</span>
+      <span><input class="form-text-box" id="bonus-health" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Cooldown Reduction</span>
+      <span><input class="form-text-box" id="cooldown-reduction" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Enemy Max Health</span>
+      <span><input class="form-text-box" id="enemy-max-health" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Enemy Current Health</span>
+      <span><input class="form-text-box" id="enemy-current-health" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Enemy Armor</span>
+      <span><input class="form-text-box" id="enemy-armor" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Enemy Magic Resist</span>
+      <span><input class="form-text-box" id="enemy-magic-resist" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Number of players effected (AOE)</span>
+      <span><input class="form-text-box" id="num-effect" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <span class="form-attr-text">Percent Chance of Hit (Skill Shot)</span>
+      <span><input class="form-text-box" id="Ability Power" type="text" value="0"/></span>
+    </div>
+    <div class="form-row">
+      <input class="btn" type="button" value="Calculate!"/>
+    </div>
+  </form>
+</template>
+
