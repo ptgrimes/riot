@@ -16,3 +16,359 @@ tags
 
 
 <div class="img " style="height:48px; width:48px; background: url('//ddragon.leagueoflegends.com/cdn/4.19.2/img/sprite/champion3.png') -96px -96px no-repeat;" data-rg-name="champion" data-rg-id="Xerath"></div>
+
+//     "Cassiopeia": {
+      
+//     },
+//     "Poppy": {
+      
+//     },
+//     "Ryze": {
+      
+//     },
+//     "Sion": {
+
+//     },
+//     "Annie": {
+
+//     },
+//     "Karma": {
+
+//     },
+//     "Nautilus": {
+
+//     },
+//     "Lux": {
+
+//     },
+//     "Ahri": {
+
+//     },
+//     "Olaf": {
+
+//     },
+//     "Viktor": {
+
+//     },
+//     "Anivia": {
+
+//     },
+//     "Garen": {
+
+//     },
+//     "Singed": {
+
+//     },
+//     "Lissandra": {
+
+//     },
+//     "Maokai": {
+
+//     },
+//     "Morgana": {
+      
+//     },
+//     "Evelynn": {
+      
+//     },
+//     "Fizz": {
+      
+//     },
+//     "Zed": {
+      
+//     },
+//     "Heimerdinger": {
+     
+//     },
+//     "Rumble": {
+      
+//     },
+//     "Mordekaiser": {
+      
+//     },
+//     "Sona": {
+      
+//     },
+//     "Katarina": {
+      
+//     },
+//     "KogMaw": {
+      
+//     },
+//     "Ashe": {
+      
+//     },
+//     "Lulu": {
+      
+//     },
+//     "Karthus": {
+      
+//     },
+//     "Alistar": {
+      
+//     },
+//     "Darius": {
+      
+//     },
+//     "Vayne": {
+      
+//     },
+//     "Varus": {
+      
+//     },
+//     "Udyr": {
+      
+//     },
+//     "Jayce": {
+      
+//     },
+//     "Leona": {
+      
+//     },
+//     "Syndra": {
+      
+//     },
+//     "Pantheon": {
+      
+//     },
+//     "Khazix": {
+      
+//     },
+//     "Riven": {
+      
+//     },
+//     "Corki": {
+      
+//     },
+//     "Azir": {
+      
+//     },
+//     "Caitlyn": {
+      
+//     },
+//     "Nidalee": {
+      
+//     },
+//     "Galio": {
+      
+//     },
+//     "Kennen": {
+      
+//     },
+//     "Veigar": {
+      
+//     },
+//     "Gnar": {
+      
+//     },
+//     "Graves": {
+      
+//     },
+//     "Malzahar": {
+      
+//     },
+//     "Vi": {
+      
+//     },
+//     "Kayle": {
+      
+//     },
+//     "Irelia": {
+      
+//     },
+//     "LeeSin": {
+      
+//     },
+//     "Elise": {
+      
+//     },
+//     "Volibear": {
+      
+//     },
+//     "Nunu": {
+      
+        
+//     },
+//     "TwistedFate": {
+      
+//     },
+//     "Jax": {
+      
+//     },
+//     "Shyvana": {
+      
+//     },
+//     "DrMundo": {
+      
+//     },
+//     "Brand": {
+      
+//     },
+//     "Diana": {
+      
+//     },
+//     "Sejuani": {
+      
+//     },
+//     "Vladimir": {
+      
+//     },
+//     "Zac": {
+     
+//     },
+//     "Quinn": {
+     
+//     },
+//     "Akali": {
+     
+//     },
+//     "Tristana": {
+     
+//     },
+//     "Hecarim": {
+     
+//     },
+//     "Sivir": {
+     
+//     },
+//     "Lucian": {
+     
+//     },
+//     "Rengar": {
+     
+//     },
+//     "Warwick": {
+     
+//     },
+//     "Skarner": {
+     
+//     },
+//     "Malphite": {
+     
+//     },
+//     "Yasuo": {
+     
+//     },
+//     "Xerath": {
+     
+//     },
+//     "Teemo": {
+     
+//     },
+//     "Nasus": {
+     
+//     },
+//     "Renekton": {
+     
+//     },
+//     "Draven": {
+     
+//     },
+//     "Shaco": {
+     
+//     },
+//     "Swain": {
+     
+//     },
+//     "Ziggs": {
+     
+//     },
+//     "Janna": {
+     
+//     },
+//     "Talon": {
+     
+//     },
+//     "Orianna": {
+     
+//     },
+//     "FiddleSticks": {
+     
+//     },
+//     "Fiora": {
+     
+//     },
+//     "Chogath": {
+     
+//     },
+//     "Rammus": {
+     
+//     },
+//     "Leblanc": {
+     
+//     },
+//     "Zilean": {
+     
+//     },
+//     "Soraka": {
+     
+//     },
+//     "Nocturne": {
+     
+//     },
+//     "Jinx": {
+     
+//     },
+//     "Yorick": {
+     
+//     },
+//     "Urgot": {
+     
+//     },
+//     "MissFortune": {
+     
+//     },
+//     "MonkeyKing": {
+     
+//     },
+//     "Blitzcrank": {
+     
+//     },
+//     "Shen": {
+     
+//     },
+//     "Braum": {
+     
+//     },
+//     "XinZhao": {
+     
+//     },
+//     "Twitch": {
+     
+//     },
+//     "MasterYi": {
+     
+//     },
+//     "Taric": {
+     
+//     },
+//     "Amumu": {
+     
+//     },
+//     "Gangplank": {
+     
+//     },
+//     "Trundle": {
+     
+//     },
+//     "Kassadin": {
+     
+//     },
+//     "Velkoz": {
+     
+//     },
+//     "Zyra": {
+     
+//     },
+//     "Nami": {
+     
+//     },
+//     "JarvanIV": {
+     
+//     },
+//     "Ezreal": {
+     
+//     }
+//   }
+// }
+// }
