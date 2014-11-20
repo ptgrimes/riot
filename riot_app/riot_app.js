@@ -50,14 +50,14 @@ if (Meteor.isClient) {
       displayTop();
           /*Things to consider: However 
             Damage - Normalize on a 0-10 scale - Can do
-            Healing - Normalize on a 0-10 scale - I think I can do
-            Damage prevented/Shield - Normalize on a 0-10 scale - 
+            Healing - Normalize on a 0-8 scale - I think I can do
+            Damage prevented/Shield - Normalize on a 0-8 scale - 
             CC Prevented - yes/no - Give value based on how many it effects
             Duration - How long were they being effected (Fiddle ult)
-            Hard CC - Normalize on a scale of 1 - 10
-            Soft CC - Normalize on a scale of 1 - 5 
-            Stat Steroids - Gold value - Normalize on a 0-8 scale
-            Mobility - Normalize distance on a 0-10 scale
+            Hard CC - Normalize on a scale of 1 - 8
+            Soft CC - Normalize on a scale of 1 - 4 
+            Stat Steroids - Gold value - Normalize on a 0-10 scale
+            Mobility - Normalize distance on a 0-3 scale
 
             DIVIDE THIS BY THE COST! --- umm normalized?
           */
@@ -277,7 +277,6 @@ if (Meteor.isClient) {
       if (allieseffected) { 
         this.shieldrank *= allieseffected;
         this.steroidrank *= allieseffected;
-        // this.ccShieldrank *= allieseffected;
       }
       var sum = this.healingrank;
       for (var i = 1; i < allieseffected; i++)
@@ -285,8 +284,8 @@ if (Meteor.isClient) {
         if ((i*this.spell.damagereduction) < 1)
           sum += this.healingrank * (1 - i*this.spell.damagereduction);
       }
-
       this.healingrank = sum;
+      
       if (enemieseffected) {
         this.ccHardrank *= enemieseffected;
         this.ccSoftrank *= enemieseffected;
@@ -305,6 +304,7 @@ if (Meteor.isClient) {
         this.ccHardrank *= (document.getElementById("percent-hit").value/100);
         this.ccSoftrank *= (document.getElementById("percent-hit").value/100);
       }
+      
       if (this.spell.maxenemies > 1)
         this.healingrank += this.damagerank*document.getElementById("spell-vamp").value/300;
       else if (this.spell.maxenemies == 1)
@@ -319,7 +319,6 @@ if (Meteor.isClient) {
               Damage - Normalize on a 0-10 scale
               Healing - Normalize on a 0-10 scale
               Damage prevented/Shield - Normalize on a 0-10 scale
-              CC Prevented - yes/no - Give value based on how many it effects
               Hard CC - Normalize on a scale of 1 - 10
               Soft CC - Normalize on a scale of 1 - 5 
               Stat Steroids - Gold value - Normalize on a 0-10 scale
@@ -353,17 +352,6 @@ if (Meteor.isClient) {
     var maxmana = Math.sqrt(Math.max.apply(Math,window.spellarray.map(function(o){return o.manacost;})))
     var maxhealth = Math.sqrt(Math.max.apply(Math,window.spellarray.map(function(o){return o.healthcost;})))
     var maxcooldown = Math.sqrt(Math.max.apply(Math,window.spellarray.map(function(o){return o.cooldown;})))
-
-//     console.log(maxdamage);
-//     console.log(maxhealing);
-//     console.log(maxshield);
-//     console.log(maxccHard);
-//     console.log(maxccSoft);
-//     console.log(maxsteroid);
-//     console.log(maxrange);
-//     console.log(maxmana);
-//     console.log(maxhealth);
-//     console.log(maxcooldown);
 
     for (var spell in window.spellarray) {
         window.spellarray[spell].damagerank = Math.sqrt(window.spellarray[spell].damagerank)*10/maxdamage;
